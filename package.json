@@ -1,4 +1,6 @@
+{
 "name":"javascript-hello-world",
 "main":{
-    "js":"a.js"
+    "js":"tryingJs.js"
+}
 }
