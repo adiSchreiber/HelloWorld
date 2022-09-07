@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+</head>
+<script type="text/javascript" src="../Data/index.js"></script>
+<script type="text/javascript" src="../Data/Warrior.js"></script>
+<script type="text/javascript" src="../Players/Magician.js"></script>
+<script type="text/javascript" src="../Players/Archer.js"></script>
+<script type="text/javascript" src="../Players/Player.js"></script>
+<script type="text/javascript" src="../BaseWeapon.js"></script>
+<script type="text/javascript" src="../Tools/PlayersWeapons.js"></script>
+<script type="text/javascript" src="../Tools/getWeapon.js"></script>
+
+<body>
+<title>hello world title!</title>
+<div>
+    <div class="form-element">
+            <label for="player-name" class="form-label">מין: </label>
+            <input type="radio" name="gender" value="male">
+            <span class="gender-name">זכר</span>
+            <input type="radio" name="gender" value="female">
+            <span class="gender-name">נקבה</span>
+    </div>
+    <div>
+            <select id="player-type">
+                    <option value="warrior">לוחם</option>
+                    <option value="magician">קוסם</option>
+                    <option value="archer">קשת</option>
+                </select>
+    </div>
+    
+    <label for="fname">First name:</label>
+    <input type="text" id="player-name"><br><br>
+    <button type="button" id="create-button">create player</button>
+    <div id="players">
+    </div>
+</div>
+</body>
+</html>
